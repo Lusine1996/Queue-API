@@ -1,0 +1,5 @@
+name: 'Queue API'
+type: module
+description: 'Module illustrating the Queue API in Drupal'
+package: Custom
+core_version_requirement: ^10
