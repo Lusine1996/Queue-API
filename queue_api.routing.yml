@@ -1,0 +1,7 @@
+queue.form:
+  path: '/queue-form'
+  defaults:
+    _form: '\Drupal\queue_api\Form\NodeDeleteQueueForm'
+    _title: 'Node Deleting'
+  requirements:
+    _permission: 'administer site configuration'

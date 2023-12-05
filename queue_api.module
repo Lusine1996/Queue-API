@@ -19,7 +19,7 @@ function queue_api_entity_insert(EntityInterface $entity) {
   /** @var QueueFactory $queue_factory */
   $queue_factory = \Drupal::service('queue');
   /** @var QueueInterface $queue */
-  $queue = $queue_factory->get('cron_node_delete');
+  $queue = $queue_factory->get('node_delete');
   $item = new \stdClass();
   $item->nid = $entity->id();
   $queue->createItem($item);
